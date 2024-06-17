@@ -1,0 +1,27 @@
+/* Write your code here. */
+
+.front {
+  height: 100px;
+  width: 100px;
+}
+.back {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  margin: 15px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 3px solid black;
+}
+@media screen and (max-width: 769px) {
+  .front {
+    height: 40px;
+    width: 40px;
+  }
+  .back {
+    height: 80px;
+    width: 80px;
+  }
+}
